@@ -26,6 +26,7 @@ section.s1{
     padding: 0 275px;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 .p3{
     text-align: center;
@@ -42,4 +43,5 @@ section.s2{
     padding: 0px;
     left: 320px;
     max-width: 700px;
+    margin: auto;
 }
