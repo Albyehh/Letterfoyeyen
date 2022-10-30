@@ -1,5 +1,6 @@
 body{
     background-image: url(a.jpg);
+    margin: 0;
 }
 .p1 {
     text-align: center;
@@ -24,9 +25,10 @@ body{
 }
 section.s1{
     padding: 0 275px;
-    display: flex;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(250px,lfr));
     align-items: center;
-    margin: auto;
 }
 .p3{
     text-align: center;
