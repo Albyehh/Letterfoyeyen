@@ -15,6 +15,7 @@
         word-spacing: 5px;
         letter-spacing: 2px;
         text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        
     }
     .p2 {
         text-align: center;
@@ -29,10 +30,9 @@
     }
     section.s1{
         padding: 0 275px;
-        display: grid;
-        grid-gap: 2em;
-        grid-template-columns: repeat(auto-fill, minmax(250px,lfr));
+        display: block;
         align-items: center;
+        position: relative;
     }
     .p3{
         text-align: center;
@@ -50,4 +50,34 @@
         max-width: 700px;
         margin: auto;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+    }
+    section.s3 {
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, .75);
+        position: relative;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+        position: fixed;
+        right: 100px;
+        top: 350px;
+        transition: .3s;
+    }
+    .img1{
+        height: auto;
+        width: 65%;
+        display: block;
+        position: relative;
+        padding: 4px;
+        left: 5px;
+        border-radius: 10px;
+    }
+    .s3:hover {
+        background-color: rgba(255, 255, 255, 1);
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        
     }
