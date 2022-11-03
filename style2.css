@@ -57,7 +57,7 @@ section.s3 {
     transition: .3s;
     position: fixed;
     left: 100px;
-    top: 350px;
+    top: 300px;
 }
 .s3:hover {
     background-color: rgba(255, 255, 255, 1);
