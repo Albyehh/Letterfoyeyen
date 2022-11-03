@@ -76,3 +76,9 @@ section.s3 {
     border-radius: 10px;
     transform: rotate(180deg);
 }
+p.p4{
+    text-align: justify;
+}
+ol.ol2 {
+    text-align: justify;
+}
