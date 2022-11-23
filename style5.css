@@ -4,6 +4,16 @@ body{
     background-size: cover;
     height: 100%;
 }
+div:hover{
+    filter: none;
+    transition: 1s;
+    opacity: 1;
+}
+div:not(:hover){
+    filter: blur(6px);
+    opacity: 0.5;
+    transition: 1s;
+}
 .p1 {
     text-align: center;
     font-family: cursive;
@@ -43,7 +53,7 @@ section.s1{
     font-size: 30px;
     font-weight: bolder;
 }
-section.s2{
+.box2{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, .75);
     position: relative;
