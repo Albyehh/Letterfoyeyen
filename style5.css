@@ -63,6 +63,20 @@ section.s1{
     margin: auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
 }
+section.s4 {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+    position: relative;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
+    position: fixed;
+    right: 100px;
+    top: 300px;
+    transition: .3s;
+}
 section.s3 {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, .75);
@@ -87,8 +101,17 @@ section.s3 {
     border-radius: 10px;
     transform: rotate(180deg);
 }
-.s3:hover {
+.s3:hover, .s4:hover {
     background-color: rgba(255, 255, 255,1);
     box-shadow: 0 0 25px rgba(255, 0, 0, 1);
     cursor: pointer;
+}
+.img2{
+    height: auto;
+    width: 65%;
+    display: block;
+    position: relative;
+    padding: 4px;
+    left: 5px;
+    border-radius: 10px;
 }
