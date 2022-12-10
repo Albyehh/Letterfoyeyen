@@ -97,7 +97,7 @@ section.s3 {
     display: block;
     position: relative;
     padding: 4px;
-    left: 5px;
+    left: 3px;
     border-radius: 10px;
     transform: rotate(180deg);
 }
