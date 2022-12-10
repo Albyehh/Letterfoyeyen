@@ -68,7 +68,7 @@ section.s1{
 }
 .box2{
     border-radius: 20px;
-    background: linear-gradient(to top right, rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25),rgba(255, 0, 0, 0.25)), linear-gradient(to top left, rgba(0, 0, 0, 0.25),rgba(255, 0, 0, 0.25));
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25),rgba(255, 0, 0, 0.25)), linear-gradient(to top left, rgba(0, 0, 0, 0.25),rgba(255, 255, 255, 0.25));
     position: relative;
     bottom: 21px;
     padding: 0px;
